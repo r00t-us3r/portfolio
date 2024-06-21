@@ -39,7 +39,7 @@ function Hero() {
           <TypingAnimation
             strings={[
               '"Hello, World!"',
-              "I'm a developer.",
+              "I'm a backend developer.",
             ]}
             autoStart={true}
           />
@@ -119,16 +119,58 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Full Stack Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Sep 2023 - Apr 2024",
-      location: "Vienna, Austria",
+      title: "Senior Backend Developer",
+      company: "HREF Agency LTD",
+      timePeriod: "March 2024 - Current",
+      location: "Altrincham, Cheshire",
     },
     {
-      title: "Junior Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Feb 2023 - Sep 2023",
-      location: "Vienna, Austria",
+      title: "Developer & IT Support",
+      company: "AV Sundries & Distribution LTD",
+      timePeriod: "Oct 2022 - Jan 2024",
+      location: "Widnes, Cheshire",
+    },
+    {
+      title: "Developer & Director",
+      company: "XHOSTUK LTD",
+      timePeriod: "Feb 2021 - Oct 2022",
+      location: "Blackburn, Lancashire",
+    },
+    {
+      title: "PHP Developer",
+      company: "Mediablanket LTD",
+      timePeriod: "Jan 2020 - Feb 2021",
+      location: "Manchester",
+    },
+    {
+      title: "Freelance Developer",
+      company: "~",
+      timePeriod: "Mar 2019 - Dec 2019",
+      location: "Liverpool, Merseyside",
+    },
+    {
+      title: "Blockchain Developer",
+      company: "Electroneum LTD",
+      timePeriod: "June 2017 - March 2019",
+      location: "Maidstone, Kent",
+    },
+    {
+      title: "PHP Developer",
+      company: "Retortal LTD",
+      timePeriod: "June 2015 - June 2017",
+      location: "Maidstone, Kent",
+    },
+    {
+      title: "Junior PHP Developer",
+      company: "Retortal LTD",
+      timePeriod: "Nov 2014 - June 2015",
+      location: "Maidstone, Kent",
+    },
+    {
+      title: "Junior PHP Developer",
+      company: "24/7 Spares",
+      timePeriod: "May 2013 - Sept 2024",
+      location: "Grays, Essex",
     },
   ];
 
@@ -194,20 +236,12 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Denoland Fresh",
+      title: "Motorbike Network",
       description:
-        "Fresh is a full stack modern web framework for JavaScript and TypeScript developers.",
-      link: "https://fresh.deno.dev/",
-      type: "Open Source",
-      icon: "logos:deno",
-    },
-    {
-      title: "Dogr.",
-      description:
-        "Dogr is a web application I developed to hone my skills in Nuxt and Vue.",
-      link: "https://dogr.vercel.app/",
-      type: "Personal",
-      icon: "logos:vue",
+        "Motorbike Network aims to be a one stop social network for bikers. Specialising in bringing bikers together as the community that we are.",
+      link: "https://play.google.com/store/apps/details?id=app.motorbike.network",
+      type: "Close Source",
+      icon: "logos:react",
     },
   ];
 
@@ -254,19 +288,10 @@ function Technologies() {
     "logos:php",
     "logos:typescript-icon",
     "skill-icons:react-dark",
-    "logos:vue",
-    "devicon:nextjs",
-    "skill-icons:nuxtjs-dark",
-    "logos:nestjs",
-    "logos:fresh",
     "skill-icons:laravel-dark",
     "skill-icons:tailwindcss-dark",
-    "logos:deno",
     "devicon:nodejs",
-    "vscode-icons:file-type-mongo",
-    "logos:postgresql",
     "logos:mariadb-icon",
-    "skill-icons:cassandra-light",
     "skill-icons:docker",
   ];
 
@@ -293,7 +318,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Values />
+      {/*<Values />*/}
       <Projects />
       <Experience />
       <Technologies />

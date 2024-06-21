@@ -35,15 +35,15 @@ export default function AppBar() {
         Portfolio
       </a>
       <ul class="flex gap-2">
-        <li>
-          <a
-            class="btn btn-primary text-base-100"
-            href="/cv.pdf"
-            download
-          >
-            Download CV
-          </a>
-        </li>
+        {/*<li>*/}
+        {/*  <a*/}
+        {/*    class="btn btn-primary text-base-100"*/}
+        {/*    href="/cv.pdf"*/}
+        {/*    download*/}
+        {/*  >*/}
+        {/*    Download CV*/}
+        {/*  </a>*/}
+        {/*</li>*/}
         <li>
           <button
             class="btn"
